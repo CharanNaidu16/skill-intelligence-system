@@ -164,13 +164,7 @@ Key FastAPI endpoints:
 4. View AI-generated recommendations with match scores
 5. Compare top candidates and make hiring decisions
 
-## 📄 License
 
-[Add your license here]
-
-## 👥 Contributing
-
-[Add contribution guidelines here]
 
 ---
 
