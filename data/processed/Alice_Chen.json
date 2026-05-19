@@ -1,0 +1,157 @@
+{
+  "candidate_name": "Alice Chen",
+  "contact_info": {
+    "email": null,
+    "phone": null,
+    "linkedin": null,
+    "location": null
+  },
+  "technical_skills": [
+    {
+      "skill": "JavaScript",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "used in multiple projects including web applications"
+    },
+    {
+      "skill": "TypeScript",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "built responsive web applications"
+    },
+    {
+      "skill": "React",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "developed user interfaces and applications"
+    },
+    {
+      "skill": "Node.js",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "led development of microservices"
+    },
+    {
+      "skill": "Express",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "used in microservices architecture"
+    },
+    {
+      "skill": "PostgreSQL",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "designed and optimized databases"
+    },
+    {
+      "skill": "MongoDB",
+      "years": 2,
+      "proficiency": "Intermediate",
+      "context": "used in various projects"
+    },
+    {
+      "skill": "Docker",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "implemented CI/CD pipelines"
+    },
+    {
+      "skill": "Jenkins",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "used for CI/CD"
+    },
+    {
+      "skill": "Git",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "version control for projects"
+    },
+    {
+      "skill": "HTML5",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "developed user interfaces"
+    },
+    {
+      "skill": "CSS3",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "developed user interfaces"
+    },
+    {
+      "skill": "SASS",
+      "years": 2,
+      "proficiency": "Intermediate",
+      "context": "used for styling"
+    },
+    {
+      "skill": "Redux",
+      "years": 2,
+      "proficiency": "Intermediate",
+      "context": "state management in applications"
+    },
+    {
+      "skill": "REST APIs",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "developed and consumed APIs"
+    },
+    {
+      "skill": "GraphQL",
+      "years": 2,
+      "proficiency": "Intermediate",
+      "context": "used in projects"
+    },
+    {
+      "skill": "AWS",
+      "years": 2,
+      "proficiency": "Intermediate",
+      "context": "deployed applications"
+    },
+    {
+      "skill": "Leadership",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "managed a team of junior developers"
+    },
+    {
+      "skill": "Agile",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "worked in Agile environments"
+    },
+    {
+      "skill": "Scrum",
+      "years": 4,
+      "proficiency": "Advanced",
+      "context": "participated in Scrum teams"
+    }
+  ],
+  "soft_skills": [
+    {
+      "skill": "Leadership",
+      "evidence": "Managed team of 3 junior developers"
+    },
+    {
+      "skill": "Collaboration",
+      "evidence": "Collaborated with UX/UI designers"
+    },
+    {
+      "skill": "Problem-solving",
+      "evidence": "Optimized web performance and accessibility"
+    }
+  ],
+  "domains": [
+    "Web Development",
+    "E-commerce",
+    "Real-time Applications"
+  ],
+  "total_experience_years": 6,
+  "notes": "",
+  "status": "new",
+  "is_favorite": false,
+  "salary_expectation": null,
+  "created_date": "2025-12-14T23:01:51.079640",
+  "updated_date": "2025-12-14T23:01:51.079668"
+}

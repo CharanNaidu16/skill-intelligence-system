@@ -1,0 +1,690 @@
+[
+  {
+    "candidate_name": "Alice Chen",
+    "contact_info": {
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "location": null
+    },
+    "technical_skills": [
+      {
+        "skill": "JavaScript",
+        "years": 6,
+        "proficiency": "Advanced",
+        "context": "used in various projects including web applications"
+      },
+      {
+        "skill": "TypeScript",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "built responsive web applications"
+      },
+      {
+        "skill": "React",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "developed user interfaces and web applications"
+      },
+      {
+        "skill": "Node.js",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "led development of microservices architecture"
+      },
+      {
+        "skill": "Express",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "used in building web applications"
+      },
+      {
+        "skill": "PostgreSQL",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "designed and optimized databases"
+      },
+      {
+        "skill": "MongoDB",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "used in various projects"
+      },
+      {
+        "skill": "Docker",
+        "years": 3,
+        "proficiency": "Intermediate",
+        "context": "implemented CI/CD pipelines"
+      },
+      {
+        "skill": "Jenkins",
+        "years": 3,
+        "proficiency": "Intermediate",
+        "context": "used for CI/CD processes"
+      },
+      {
+        "skill": "Git",
+        "years": 6,
+        "proficiency": "Advanced",
+        "context": "version control for all projects"
+      },
+      {
+        "skill": "HTML5",
+        "years": 6,
+        "proficiency": "Advanced",
+        "context": "developed user interfaces"
+      },
+      {
+        "skill": "CSS3",
+        "years": 6,
+        "proficiency": "Advanced",
+        "context": "developed user interfaces"
+      },
+      {
+        "skill": "SASS",
+        "years": 3,
+        "proficiency": "Intermediate",
+        "context": "used for styling web applications"
+      },
+      {
+        "skill": "Redux",
+        "years": 3,
+        "proficiency": "Intermediate",
+        "context": "state management in React applications"
+      },
+      {
+        "skill": "REST APIs",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "developed and consumed APIs"
+      },
+      {
+        "skill": "GraphQL",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "used in various projects"
+      },
+      {
+        "skill": "AWS",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "deployed applications on AWS"
+      },
+      {
+        "skill": "Leadership",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "managed a team of 3 junior developers"
+      },
+      {
+        "skill": "Agile",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "worked in Agile environments"
+      },
+      {
+        "skill": "Scrum",
+        "years": 4,
+        "proficiency": "Advanced",
+        "context": "participated in Scrum teams"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill": "Leadership",
+        "evidence": "Managed team of 3 junior developers"
+      },
+      {
+        "skill": "Collaboration",
+        "evidence": "Collaborated with UX/UI designers"
+      },
+      {
+        "skill": "Problem-solving",
+        "evidence": "Optimized web performance and accessibility"
+      }
+    ],
+    "domains": [
+      "Web Development",
+      "E-commerce",
+      "Real-time Applications"
+    ],
+    "total_experience_years": 6,
+    "notes": "",
+    "status": "new",
+    "is_favorite": false,
+    "salary_expectation": null,
+    "created_date": "2025-12-14T22:27:17.331957",
+    "updated_date": "2025-12-14T22:27:17.331978"
+  },
+  {
+    "candidate_name": "Bob Rodriguez",
+    "technical_skills": [
+      {
+        "skill": "Python",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Developed machine learning models for predictive analytics"
+      },
+      {
+        "skill": "R",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "Performed statistical analysis on financial data"
+      },
+      {
+        "skill": "SQL",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "Performed statistical analysis on financial data"
+      },
+      {
+        "skill": "TensorFlow",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Developed machine learning models for predictive analytics"
+      },
+      {
+        "skill": "PyTorch",
+        "years": 0,
+        "proficiency": "Beginner",
+        "context": "Listed as a skill but no evidence of use"
+      },
+      {
+        "skill": "Scikit-learn",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Developed machine learning models"
+      },
+      {
+        "skill": "Pandas",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Used for data manipulation in ML projects"
+      },
+      {
+        "skill": "NumPy",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Used for numerical computations in ML projects"
+      },
+      {
+        "skill": "Apache Spark",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Built data pipelines processing 1M+ records daily"
+      },
+      {
+        "skill": "Kafka",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Built data pipelines processing 1M+ records daily"
+      },
+      {
+        "skill": "Docker",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Deployed ML models to production"
+      },
+      {
+        "skill": "Kubernetes",
+        "years": 0,
+        "proficiency": "Beginner",
+        "context": "Listed as a skill but no evidence of use"
+      },
+      {
+        "skill": "AWS",
+        "years": 0,
+        "proficiency": "Beginner",
+        "context": "Listed as a skill but no evidence of use"
+      },
+      {
+        "skill": "GCP",
+        "years": 0,
+        "proficiency": "Beginner",
+        "context": "Listed as a skill but no evidence of use"
+      },
+      {
+        "skill": "Tableau",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Created interactive dashboards"
+      },
+      {
+        "skill": "Power BI",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Created interactive dashboards"
+      },
+      {
+        "skill": "Jupyter",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Used for data analysis and visualization"
+      },
+      {
+        "skill": "Git",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Used for version control in projects"
+      },
+      {
+        "skill": "Statistics",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Performed statistical analysis on financial data"
+      },
+      {
+        "skill": "Machine Learning",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Developed various ML models"
+      },
+      {
+        "skill": "Deep Learning",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Developed ML models using TensorFlow"
+      },
+      {
+        "skill": "Data Visualization",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Created interactive dashboards"
+      },
+      {
+        "skill": "A/B Testing",
+        "years": 0,
+        "proficiency": "Beginner",
+        "context": "Listed as a skill but no evidence of use"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill": "Leadership",
+        "evidence": "Mentored 2 junior data scientists"
+      },
+      {
+        "skill": "Collaboration",
+        "evidence": "Collaborated with business stakeholders to define KPIs and metrics"
+      },
+      {
+        "skill": "Problem-solving",
+        "evidence": "Developed ML models for predictive analytics and fraud detection"
+      }
+    ],
+    "domains": [
+      "Machine Learning",
+      "Data Analytics",
+      "Financial Services"
+    ],
+    "total_experience_years": 7,
+    "notes": "",
+    "status": "new",
+    "is_favorite": false,
+    "salary_expectation": null,
+    "created_date": "2025-12-14T22:27:17.332286",
+    "updated_date": "2025-12-14T22:27:17.332288"
+  },
+  {
+    "candidate_name": "Carol Johnson",
+    "technical_skills": [
+      {
+        "skill": "AWS",
+        "years": 3,
+        "proficiency": "Expert",
+        "context": "Designed and implemented AWS cloud infrastructure"
+      },
+      {
+        "skill": "Terraform",
+        "years": 3,
+        "proficiency": "Expert",
+        "context": "Automated deployment processes using Terraform"
+      },
+      {
+        "skill": "Ansible",
+        "years": 3,
+        "proficiency": "Expert",
+        "context": "Automated deployment processes using Ansible"
+      },
+      {
+        "skill": "GitLab CI",
+        "years": 3,
+        "proficiency": "Expert",
+        "context": "Automated deployment processes using GitLab CI"
+      },
+      {
+        "skill": "Linux",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Managed Linux servers"
+      },
+      {
+        "skill": "Windows Server",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Managed Windows infrastructure"
+      },
+      {
+        "skill": "Bash",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Automated routine tasks using Bash scripts"
+      },
+      {
+        "skill": "PowerShell",
+        "years": 5,
+        "proficiency": "Advanced",
+        "context": "Automated routine tasks using PowerShell scripts"
+      },
+      {
+        "skill": "Python",
+        "years": 3,
+        "proficiency": "Intermediate",
+        "context": "Used in automation and scripting"
+      },
+      {
+        "skill": "Docker",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "Used in deployment processes"
+      },
+      {
+        "skill": "Kubernetes",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "Used in cloud architecture"
+      },
+      {
+        "skill": "Monitoring (Prometheus, Grafana)",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "Implemented monitoring and alerting"
+      },
+      {
+        "skill": "ELK Stack",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "Implemented monitoring and alerting"
+      },
+      {
+        "skill": "Networking",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "Configured and maintained network equipment"
+      },
+      {
+        "skill": "Security",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "Maintained network security and compliance standards"
+      },
+      {
+        "skill": "Compliance",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "Maintained compliance standards"
+      },
+      {
+        "skill": "Incident Response",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "Involved in security and compliance tasks"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill": "Leadership",
+        "evidence": "Led cloud migration project saving company $200k annually"
+      },
+      {
+        "skill": "Problem-Solving",
+        "evidence": "Implemented backup and disaster recovery procedures"
+      },
+      {
+        "skill": "Communication",
+        "evidence": "Provided technical support for network connectivity issues"
+      }
+    ],
+    "domains": [
+      "Cloud Computing",
+      "DevOps",
+      "IT Infrastructure"
+    ],
+    "total_experience_years": 8,
+    "notes": "",
+    "status": "new",
+    "is_favorite": false,
+    "salary_expectation": null,
+    "created_date": "2025-12-14T22:27:17.332488",
+    "updated_date": "2025-12-14T22:38:55.327618"
+  },
+  {
+    "candidate_name": "John Doe",
+    "technical_skills": [
+      {
+        "skill": "Python",
+        "years": 5,
+        "proficiency": "Expert",
+        "context": "Developed microservices using Python and FastAPI"
+      },
+      {
+        "skill": "JavaScript",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "Built React frontend applications"
+      },
+      {
+        "skill": "React",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "Built React frontend applications"
+      },
+      {
+        "skill": "FastAPI",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "Developed microservices using FastAPI"
+      },
+      {
+        "skill": "AWS",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "Deployed applications on AWS"
+      },
+      {
+        "skill": "Docker",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "Commonly used in deployment processes"
+      },
+      {
+        "skill": "Machine Learning",
+        "years": 2,
+        "proficiency": "Intermediate",
+        "context": "Led team on ML project"
+      },
+      {
+        "skill": "PostgreSQL",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "Commonly used in backend development"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill": "Leadership",
+        "evidence": "Led team of 5 engineers on ML project"
+      },
+      {
+        "skill": "Problem-solving",
+        "evidence": "Involved in developing complex microservices"
+      }
+    ],
+    "domains": [
+      "Machine Learning",
+      "Web Development"
+    ],
+    "total_experience_years": 7,
+    "notes": "",
+    "status": "new",
+    "is_favorite": false,
+    "salary_expectation": null,
+    "created_date": "2025-12-14T22:27:17.332872",
+    "updated_date": "2025-12-14T22:27:17.332874"
+  },
+  {
+    "candidate_name": "CHARAN B",
+    "contact_info": {
+      "email": "charanbabu540@gmail.com",
+      "phone": "9353124651",
+      "linkedin": null,
+      "location": null
+    },
+    "technical_skills": [
+      {
+        "skill": "Python",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in backend development during internships"
+      },
+      {
+        "skill": "JavaScript",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in frontend development during internships"
+      },
+      {
+        "skill": "Java",
+        "years": null,
+        "proficiency": "null",
+        "context": "not specified"
+      },
+      {
+        "skill": "HTML",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in web applications"
+      },
+      {
+        "skill": "CSS",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in web applications"
+      },
+      {
+        "skill": "MongoDB",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in database management during internships"
+      },
+      {
+        "skill": "MySQL",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in database management during internships"
+      },
+      {
+        "skill": "SQL",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used in database management during internships"
+      },
+      {
+        "skill": "Git",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used for version control in projects"
+      },
+      {
+        "skill": "GitHub",
+        "years": 2,
+        "proficiency": "Advanced",
+        "context": "used for version control in projects"
+      },
+      {
+        "skill": "Django",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "used in backend development during internships"
+      },
+      {
+        "skill": "React",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "used in frontend development during internships"
+      },
+      {
+        "skill": "Django Rest Framework",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "used in backend development during internships"
+      },
+      {
+        "skill": "Tailwind",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "used in frontend development for styling"
+      },
+      {
+        "skill": "Redux",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "used in frontend development for state management"
+      },
+      {
+        "skill": "Bootstrap",
+        "years": 1,
+        "proficiency": "Intermediate",
+        "context": "used in frontend development for responsive design"
+      },
+      {
+        "skill": "Data Structures and Algorithms",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "studied during education"
+      },
+      {
+        "skill": "Operating Systems",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "studied during education"
+      },
+      {
+        "skill": "DBMS",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "studied during education"
+      },
+      {
+        "skill": "Object-Oriented Programming",
+        "years": 3,
+        "proficiency": "Advanced",
+        "context": "studied during education"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill": "Teamwork",
+        "evidence": "Engaged with various teams to integrate features and address technical challenges"
+      },
+      {
+        "skill": "Problem-Solving",
+        "evidence": "Resolved technical challenges during internships"
+      },
+      {
+        "skill": "Communication",
+        "evidence": "Collaborated across cross-functional teams"
+      }
+    ],
+    "domains": [
+      "Web Development"
+    ],
+    "total_experience_years": 2,
+    "notes": "",
+    "status": "new",
+    "is_favorite": false,
+    "salary_expectation": null,
+    "created_date": "2025-12-14T22:32:24.131382",
+    "updated_date": "2025-12-14T22:32:24.131411"
+  }
+]

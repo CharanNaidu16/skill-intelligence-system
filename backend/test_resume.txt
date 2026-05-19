@@ -1,0 +1,15 @@
+John Doe
+Senior Software Engineer
+
+EXPERIENCE:
+Software Engineer at TechCorp (2018-2024)
+- Developed microservices using Python and FastAPI
+- Built React frontend applications
+- Led team of 5 engineers on ML project
+- Deployed applications on AWS
+
+SKILLS:
+Python, JavaScript, React, Node.js, AWS, Docker, Machine Learning, FastAPI, PostgreSQL
+
+EDUCATION:
+BS Computer Science, MIT, 2018

@@ -1,0 +1,26 @@
+Alice Chen
+Senior Full Stack Developer
+
+EXPERIENCE:
+Senior Full Stack Developer at TechStart Inc (2020-2024)
+- Led development of microservices architecture using Node.js and Express
+- Built responsive web applications using React and TypeScript
+- Designed and optimized PostgreSQL databases
+- Implemented CI/CD pipelines using Jenkins and Docker
+- Managed team of 3 junior developers
+
+Frontend Developer at Digital Solutions (2018-2020)
+- Developed user interfaces using React, HTML5, and CSS3
+- Collaborated with UX/UI designers to implement pixel-perfect designs
+- Optimized web performance and accessibility
+
+SKILLS:
+JavaScript, TypeScript, React, Node.js, Express, PostgreSQL, MongoDB, Docker, Jenkins, Git, HTML5, CSS3, SASS, Redux, REST APIs, GraphQL, AWS, Leadership, Agile, Scrum
+
+EDUCATION:
+Bachelor of Science in Computer Science, UC Berkeley, 2018
+Certified Kubernetes Administrator (CKA)
+
+PROJECTS:
+- E-commerce Platform: Led development of full-stack e-commerce solution serving 10k+ users
+- Real-time Chat Application: Built using Socket.io and React with 99.9% uptime

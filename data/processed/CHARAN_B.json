@@ -1,0 +1,155 @@
+{
+  "candidate_name": "CHARAN B",
+  "contact_info": {
+    "email": "charanbabu540@gmail.com",
+    "phone": "9353124651",
+    "linkedin": null,
+    "location": null
+  },
+  "technical_skills": [
+    {
+      "skill": "Python",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in backend development during internships"
+    },
+    {
+      "skill": "JavaScript",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in frontend development during internships"
+    },
+    {
+      "skill": "Java",
+      "years": null,
+      "proficiency": "null",
+      "context": "not specified"
+    },
+    {
+      "skill": "HTML",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in web applications"
+    },
+    {
+      "skill": "CSS",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in web applications"
+    },
+    {
+      "skill": "MongoDB",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in database management during internships"
+    },
+    {
+      "skill": "MySQL",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in database management during internships"
+    },
+    {
+      "skill": "SQL",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used in database management during internships"
+    },
+    {
+      "skill": "Git",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used for version control in projects"
+    },
+    {
+      "skill": "GitHub",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "used for version control in projects"
+    },
+    {
+      "skill": "Django",
+      "years": 1,
+      "proficiency": "Intermediate",
+      "context": "used in backend development during internships"
+    },
+    {
+      "skill": "React",
+      "years": 1,
+      "proficiency": "Intermediate",
+      "context": "used in frontend development during internships"
+    },
+    {
+      "skill": "Django Rest Framework",
+      "years": 1,
+      "proficiency": "Intermediate",
+      "context": "used in backend development during internships"
+    },
+    {
+      "skill": "Tailwind",
+      "years": 1,
+      "proficiency": "Intermediate",
+      "context": "used in frontend development for styling"
+    },
+    {
+      "skill": "Redux",
+      "years": 1,
+      "proficiency": "Intermediate",
+      "context": "used in frontend development for state management"
+    },
+    {
+      "skill": "Bootstrap",
+      "years": 1,
+      "proficiency": "Intermediate",
+      "context": "used in frontend development for responsive design"
+    },
+    {
+      "skill": "Data Structures and Algorithms",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "studied during education"
+    },
+    {
+      "skill": "Operating Systems",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "studied during education"
+    },
+    {
+      "skill": "DBMS",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "studied during education"
+    },
+    {
+      "skill": "Object-Oriented Programming",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "studied during education"
+    }
+  ],
+  "soft_skills": [
+    {
+      "skill": "Teamwork",
+      "evidence": "Engaged with various teams to integrate features and address technical challenges"
+    },
+    {
+      "skill": "Problem-Solving",
+      "evidence": "Resolved technical challenges during internships"
+    },
+    {
+      "skill": "Communication",
+      "evidence": "Collaborated across cross-functional teams"
+    }
+  ],
+  "domains": [
+    "Web Development"
+  ],
+  "total_experience_years": 2,
+  "notes": "",
+  "status": "new",
+  "is_favorite": false,
+  "salary_expectation": null,
+  "created_date": "2025-12-14T22:32:24.131382",
+  "updated_date": "2025-12-14T22:32:24.131411"
+}

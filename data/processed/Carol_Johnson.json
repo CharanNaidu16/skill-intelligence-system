@@ -1,0 +1,153 @@
+{
+  "candidate_name": "Carol Johnson",
+  "contact_info": {
+    "email": null,
+    "phone": null,
+    "linkedin": null,
+    "location": null
+  },
+  "technical_skills": [
+    {
+      "skill": "AWS",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Designed and implemented AWS cloud infrastructure"
+    },
+    {
+      "skill": "Azure",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    },
+    {
+      "skill": "GCP",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    },
+    {
+      "skill": "Terraform",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Automated deployment processes using Terraform"
+    },
+    {
+      "skill": "Ansible",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Automated deployment processes using Ansible"
+    },
+    {
+      "skill": "Docker",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    },
+    {
+      "skill": "Kubernetes",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    },
+    {
+      "skill": "Jenkins",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    },
+    {
+      "skill": "GitLab CI",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Automated deployment processes using GitLab CI"
+    },
+    {
+      "skill": "Linux",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Managed Linux servers"
+    },
+    {
+      "skill": "Windows Server",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Managed Windows infrastructure"
+    },
+    {
+      "skill": "Bash",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Automated routine tasks using Bash"
+    },
+    {
+      "skill": "PowerShell",
+      "years": 3,
+      "proficiency": "Expert",
+      "context": "Automated routine tasks using PowerShell"
+    },
+    {
+      "skill": "Python",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    },
+    {
+      "skill": "Monitoring (Prometheus, Grafana)",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "Implemented monitoring and alerting using Prometheus and Grafana"
+    },
+    {
+      "skill": "ELK Stack",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "Implemented monitoring and alerting using ELK stack"
+    },
+    {
+      "skill": "Networking",
+      "years": 2,
+      "proficiency": "Advanced",
+      "context": "Configured and maintained network equipment"
+    },
+    {
+      "skill": "Security",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "Maintained network security and compliance standards"
+    },
+    {
+      "skill": "Compliance",
+      "years": 3,
+      "proficiency": "Advanced",
+      "context": "Maintained compliance standards"
+    },
+    {
+      "skill": "Incident Response",
+      "years": 0,
+      "proficiency": "Beginner",
+      "context": "Not mentioned in experience"
+    }
+  ],
+  "soft_skills": [
+    {
+      "skill": "Leadership",
+      "evidence": "Led cloud migration project saving company $200k annually"
+    },
+    {
+      "skill": "Problem-Solving",
+      "evidence": "Implemented backup and disaster recovery procedures"
+    }
+  ],
+  "domains": [
+    "Cloud Computing",
+    "DevOps",
+    "IT Infrastructure"
+  ],
+  "total_experience_years": 8,
+  "notes": "",
+  "status": "new",
+  "is_favorite": false,
+  "salary_expectation": null,
+  "created_date": "2025-12-14T23:02:05.299615",
+  "updated_date": "2025-12-14T23:02:05.299631"
+}

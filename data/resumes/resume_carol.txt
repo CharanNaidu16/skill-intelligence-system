@@ -1,0 +1,35 @@
+Carol Johnson
+DevOps Engineer & Cloud Architect
+
+EXPERIENCE:
+Senior DevOps Engineer at CloudScale Technologies (2021-2024)
+- Designed and implemented AWS cloud infrastructure serving 500k+ users
+- Automated deployment processes using Terraform, Ansible, and GitLab CI
+- Maintained 99.99% uptime for critical production services
+- Implemented monitoring and alerting using Prometheus, Grafana, and ELK stack
+- Led cloud migration project saving company $200k annually
+
+Systems Administrator at Enterprise Corp (2018-2021)
+- Managed Linux servers and Windows infrastructure for 500+ employees
+- Implemented backup and disaster recovery procedures
+- Automated routine tasks using Bash and PowerShell scripts
+- Maintained network security and compliance standards
+
+Junior Network Administrator at Tech Support Inc (2016-2018)
+- Configured and maintained network equipment (Cisco, Juniper)
+- Provided technical support for network connectivity issues
+- Assisted with server maintenance and updates
+
+SKILLS:
+AWS, Azure, GCP, Terraform, Ansible, Docker, Kubernetes, Jenkins, GitLab CI, Linux, Windows Server, Bash, PowerShell, Python, Monitoring (Prometheus, Grafana), ELK Stack, Networking, Security, Compliance, Incident Response
+
+EDUCATION:
+Bachelor of Science in Information Technology, Georgia Tech, 2016
+AWS Certified Solutions Architect
+Certified Kubernetes Administrator (CKA)
+CompTIA Security+
+
+PROJECTS:
+- Multi-Region Cloud Migration: Led migration of legacy systems to AWS with zero downtime
+- Infrastructure as Code: Implemented Terraform modules reducing deployment time by 80%
+- Monitoring Dashboard: Built comprehensive monitoring solution with 50+ metrics

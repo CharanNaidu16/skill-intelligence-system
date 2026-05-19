@@ -1,0 +1,28 @@
+Bob Rodriguez
+Data Scientist & ML Engineer
+
+EXPERIENCE:
+Senior Data Scientist at DataCorp Analytics (2019-2024)
+- Developed machine learning models for predictive analytics using Python and TensorFlow
+- Built data pipelines processing 1M+ records daily using Apache Spark and Kafka
+- Created interactive dashboards using Tableau and Power BI
+- Deployed ML models to production using MLflow and Docker
+- Mentored 2 junior data scientists
+
+Data Analyst at FinTech Solutions (2017-2019)
+- Performed statistical analysis on financial data using R and SQL
+- Created automated reporting systems reducing manual work by 70%
+- Collaborated with business stakeholders to define KPIs and metrics
+
+SKILLS:
+Python, R, SQL, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Apache Spark, Kafka, Docker, Kubernetes, AWS, GCP, Tableau, Power BI, Jupyter, Git, Statistics, Machine Learning, Deep Learning, Data Visualization, A/B Testing
+
+EDUCATION:
+Master of Science in Data Science, Stanford University, 2017
+Bachelor of Science in Mathematics, UCLA, 2015
+AWS Certified Machine Learning Specialist
+
+PROJECTS:
+- Customer Churn Prediction: Built ML model achieving 92% accuracy for telecom client
+- Real-time Fraud Detection: Implemented streaming analytics reducing false positives by 40%
+- Recommendation Engine: Developed collaborative filtering system increasing sales by 25%
