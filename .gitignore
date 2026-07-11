@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -48,7 +49,14 @@ Thumbs.db
 
 # Build outputs
 frontend/client/build/
+frontend/client/dist/
 frontend/client/.next/
+
+# Candidate data (contains personal information)
+data/candidates.json
+data/resumes/
+data/processed/
+backend/candidates.json
 
 # Logs
 *.log

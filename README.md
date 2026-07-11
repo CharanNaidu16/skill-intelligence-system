@@ -1,171 +1,125 @@
 # Skill Intelligence System
 
-A full-stack application for intelligent resume analysis and candidate-job matching using AI-powered skill extraction.
+A full-stack application for AI-powered resume analysis and candidate-job matching.
+Upload resumes, let an LLM extract structured skill profiles, then rank every
+candidate against a role — defined manually or parsed from a pasted job description.
 
-## 🎯 Features
+## Features
 
-- **Resume Upload & Processing**: Upload and parse resumes in multiple formats (PDF, TXT)
-- **AI-Powered Skill Extraction**: Automatically extract technical skills, soft skills, experience levels, and proficiency using Azure OpenAI/GPT-4
-- **Candidate Management**: Store and manage candidate profiles with structured skill data
-- **Smart Matching**: Recommend candidates based on job requirements and skill alignment
-- **Candidate Comparison**: Side-by-side comparison of multiple candidates
-- **Search & Filter**: Advanced filtering by skills, experience, and proficiency levels
-- **Analytics Dashboard**: Visualize candidate skill distributions and match metrics
-- **Bulk Operations**: Export candidate data and manage multiple profiles efficiently
+- **Resume upload & parsing** — single or bulk upload of PDF/DOCX/TXT resumes with drag & drop
+- **AI skill extraction** — technical skills, soft skills, proficiency, experience, domains, and contact info
+- **Smart matching** — rank candidates against a role with exact canonical skill matching (a "Java" requirement never matches "JavaScript")
+- **Job-description mode** — paste a full JD and the AI extracts the requirements automatically
+- **Candidate pipeline** — statuses (new → contacted → interviewed → hired/rejected), favorites, notes, salary expectations
+- **Search & filters** — by name, skill, proficiency, domain, experience, status, favorites
+- **Comparison** — side-by-side comparison of selected candidates
+- **Analytics** — top skills, experience distribution, and pipeline breakdown
+- **Export** — download the candidate database as JSON
 
-## 🏗️ Architecture
+## Architecture
 
-### Backend
-- **Framework**: FastAPI
-- **AI Integration**: Azure OpenAI API (GPT-4)
-- **PDF Processing**: PyPDF2
-- **API Features**: RESTful endpoints, CORS support, file upload handling
-
-### Frontend
-- **Framework**: React 19
-- **Visualization**: Recharts for analytics and charts
-- **HTTP Client**: Axios
-- **UI Components**: Custom React components with CSS styling
-
-### Data Storage
-- JSON-based file storage
-- Processed candidate profiles in `/data/processed/`
-- Original resumes in `/data/resumes/`
-
-## 📁 Project Structure
+| Layer | Stack |
+|---|---|
+| Backend | FastAPI, Pydantic, single JSON candidate store with atomic writes |
+| LLM | Groq / Azure OpenAI / OpenAI — auto-detected from `.env` |
+| Frontend | React 19 (`.jsx`) on Vite, Recharts, Axios |
 
 ```
 skill-intelligence-system/
 ├── backend/
-│   ├── main.py                 # FastAPI application entry point
-│   ├── skill_extractor.py      # AI-powered skill extraction
-│   ├── pdf_processor.py        # PDF parsing and text extraction
-│   ├── recommender.py          # Job-candidate matching engine
-│   ├── requirements.txt        # Python dependencies
-│   └── candidates.json         # Candidate database
-│
-├── frontend/
-│   └── client/
-│       ├── src/
-│       │   ├── App.js          # Main application component
-│       │   ├── components/     # React components
-│       │   │   ├── AnalyticsDashboard.js
-│       │   │   ├── ComparisonView.js
-│       │   │   ├── SearchFilter.js
-│       │   │   └── ExplanationModal.js
-│       │   └── services/
-│       │       └── api.js      # API client
-│       ├── package.json
-│       └── public/
-│
+│   ├── main.py               # FastAPI app entry point
+│   ├── config.py             # Env config + paths (anchored, CWD-independent)
+│   ├── schemas.py            # Pydantic request models
+│   ├── routers/
+│   │   ├── candidates.py     # CRUD, search, upload, export, bulk delete
+│   │   └── recommend.py      # Candidate ranking
+│   └── services/
+│       ├── store.py          # CandidateStore — single source of truth (JSON, atomic writes)
+│       ├── llm.py            # Provider-agnostic LLM client (Groq/Azure/OpenAI)
+│       ├── extractor.py      # Resume & job-description extraction prompts
+│       ├── recommender.py    # Scoring engine (60% required / 10% preferred / 30% experience)
+│       ├── skills.py         # Canonical skill names + alias table
+│       └── pdf_processor.py  # PDF/DOCX/TXT text extraction
+├── frontend/client/          # Vite + React app
+│   └── src/
+│       ├── App.jsx
+│       ├── api/client.js     # API layer (base URL via VITE_API_URL)
+│       ├── pages/            # Upload, Candidates, Match, Results, Analytics
+│       ├── components/       # Cards, modals, filter bar, icons, badges
+│       └── context/          # Toast notifications
 └── data/
-    ├── resumes/                # Original resume files
-    └── processed/              # Extracted candidate profiles
+    ├── candidates.json       # Candidate database (created at first run)
+    └── resumes/              # Uploaded resume files
 ```
 
-## 🚀 Getting Started
+## Getting started
 
 ### Prerequisites
-- Python 3.9+
-- Node.js 16+
-- Azure OpenAI API credentials
 
-### Backend Setup
+- Python 3.10+
+- Node.js 18+
+- An LLM API key: [Groq](https://console.groq.com) (free tier available), Azure OpenAI, or OpenAI
 
-1. Install Python dependencies:
+Each half of the stack declares its dependencies in its ecosystem's standard
+manifest — there is no single shared file, and none is needed:
+
+| Layer | Manifest | Installed with |
+|---|---|---|
+| Backend (Python) | `backend/requirements.txt` | `pip install -r requirements.txt` |
+| Frontend (npm) | `frontend/client/package.json` | `npm install` |
+
+### 1. Backend
+
 ```bash
 cd backend
+python -m venv .venv
+.venv\Scripts\activate          # Windows (source .venv/bin/activate on macOS/Linux)
 pip install -r requirements.txt
+
+copy .env.example .env          # then put your API key in .env
+python main.py                  # → http://localhost:8001 (docs at /docs)
 ```
 
-2. Configure environment variables (.env):
-```
-AZURE_OPENAI_API_KEY=your_api_key
-AZURE_OPENAI_API_VERSION=your_api_version
-AZURE_OPENAI_ENDPOINT=your_endpoint
-AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
-```
+`.env` — set exactly one provider; the backend picks it up automatically:
 
-3. Run the FastAPI server:
-```bash
-cd backend
-python main.py
-# Server runs on http://localhost:8000
+```
+GROQ_API_KEY=gsk_...
+GROQ_MODEL=llama-3.3-70b-versatile
 ```
 
-### Frontend Setup
+### 2. Frontend
 
-1. Install dependencies:
 ```bash
 cd frontend/client
 npm install
+npm run dev                     # → http://localhost:3000
 ```
 
-2. Start development server:
-```bash
-npm start
-# Application runs on http://localhost:3000
-```
+The frontend targets `http://localhost:8001` by default; override with a
+`VITE_API_URL` env variable if the backend runs elsewhere.
 
-## 📋 Key Components
+## API overview
 
-### Skill Extractor
-Parses resume text and uses GPT-4 to extract:
-- Contact information (email, phone, LinkedIn)
-- Technical & soft skills
-- Experience levels per skill
-- Domain expertise
-- Proficiency ratings (Beginner/Intermediate/Advanced/Expert)
+Interactive docs at `http://localhost:8001/docs`.
 
-### Recommendation Engine
-Matches candidates to jobs based on:
-- Required skill coverage
-- Preferred skill matching
-- Experience requirements
-- Overall compatibility scoring
+| Method | Endpoint | Purpose |
+|---|---|---|
+| `GET` | `/api/candidates` | List candidates (optional filters: `q`, `skill`, `status`, `is_favorite`, `min_experience`, `max_experience`, `location`) |
+| `POST` | `/api/candidates/upload` | Upload a resume (PDF/DOCX/TXT); re-uploading a known candidate (matched by email, falling back to name) updates their profile |
+| `GET` | `/api/candidates/{id}/resume` | View/download the candidate's original resume file |
+| `PUT` | `/api/candidates/{id}` | Update candidate fields (status, notes, favorite, …) |
+| `DELETE` | `/api/candidates/{id}` | Delete a candidate |
+| `POST` | `/api/candidates/bulk-delete` | Delete multiple candidates by id |
+| `GET` | `/api/candidates/export` | Export the full database as JSON |
+| `POST` | `/api/recommend` | Rank candidates — `mode: "manual"` with skills, or `mode: "description"` with a raw JD |
 
-### Frontend Views
-- **Upload Tab**: Resume upload and processing
-- **Search Tab**: Filter and browse candidate database
-- **Recommendations Tab**: View AI-generated job-candidate matches
-- **Comparison Tab**: Compare multiple candidates side-by-side
-- **Analytics Dashboard**: Visualize skill trends and metrics
+## Matching engine
 
-## 🔧 API Endpoints
+Each candidate gets a weighted score against the role:
 
-Key FastAPI endpoints:
-- `POST /upload` - Upload and process resume
-- `GET /candidates` - Retrieve all candidates
-- `POST /recommend` - Get candidate recommendations
-- `GET /search` - Search candidates by skills
-- `PUT /candidates/{candidate_id}` - Update candidate profile
-- `DELETE /candidates` - Bulk delete candidates
+- **60%** — share of required skills matched (exact canonical match via alias table: `nodejs` ≡ `Node.js`, `k8s` ≡ `Kubernetes`, …)
+- **10%** — share of preferred skills matched
+- **30%** — experience (full credit if the minimum is met, half otherwise)
 
-## 📦 Dependencies
-
-### Backend
-- fastapi >= 0.104.0
-- uvicorn >= 0.24.0
-- openai >= 1.0.0
-- PyPDF2 >= 3.0.0
-- pydantic >= 2.0.0
-- python-dotenv >= 1.0.0
-
-### Frontend
-- react >= 19.2.3
-- axios >= 1.13.2
-- recharts >= 3.5.1
-
-## 📝 Usage Example
-
-1. Upload a resume via the UI
-2. System automatically extracts skills and creates a candidate profile
-3. Define job requirements with required/preferred skills
-4. View AI-generated recommendations with match scores
-5. Compare top candidates and make hiring decisions
-
-
-
----
-
-**Built with FastAPI + React + Azure OpenAI GPT-4**
+The "Why this ranking?" view in the UI breaks the score down per component with
+the matched, missing, and bonus skills as evidence.
